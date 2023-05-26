@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: 'Brusher';
+    src: url('./assets/fonts/Brusher.ttf')
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf')
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf'),
+        url('./assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf')
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src:    url('./assets/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf'),
+            url('./assets/fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf'),
+            url('./assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf')
+}
+
+.container {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
