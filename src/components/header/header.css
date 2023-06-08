@@ -1,0 +1,82 @@
+#header {
+    padding-top: 0.6rem;
+    background-image: url(../../assets/images/header-interlove-shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+#navbar .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#navbar .menu a {
+    color: #fff;
+}
+#navbar .menu .menu-select {
+    margin-top: -0.08rem;
+}
+#navbar .menu select {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 100%;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+#navbar .menu h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#navbar .logo {
+    width: 40%;
+}
+
+#navbar .logo img {
+    width: 30%;
+}
+
+#hero-description {
+    margin-top: 10rem;
+    color: #fff;
+}
+
+#hero-description h3 {
+    font-family: 'Playfair Display', sans-serif;
+    padding-bottom: 1rem;
+    font-size: 32px;
+}
+#hero-description h3 span {
+    color: #f50404;
+}
+#hero-description h4 {
+    font-family: 'Libre Baskerville', sans-serif;
+    padding-bottom: 1rem;
+    font-size: 18px;
+}
+
+/* #header .black-shaped-background {
+    background-color: #060606;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: -0.1rem;
+    z-index: 1;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+} */
