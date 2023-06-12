@@ -1,0 +1,44 @@
+#amazing {
+    background-color: #f50404;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.amazing-section h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 23px;
+}
+
+.objective {
+    display: flex;
+    gap: 0.1rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.quote-open, .quote-close {
+    width: 3%;
+}
+.objective-text {
+    width: 94%;
+    margin-top: 0.8rem;
+    font-size: 18px;
+    font-family: 'Libre Baskerville';
+    text-align: center;
+}
+
+.quote-open img, .quote-close img{
+    width: 100%;
+}
+
+.amazing-section h4 {
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+}
+
+.quote-close {
+    margin-top: 1rem;
+}
