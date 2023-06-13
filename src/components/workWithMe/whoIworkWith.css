@@ -1,0 +1,40 @@
+.work-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 34.5px;
+}
+.singles, .inrelationship, .couples {
+    display: flex;
+}
+
+.singles img, .inrelationship img, .couples img{
+    width: 50%;
+}
+
+.singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
+    font-family: 'Brusher', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 0.7rem 0;
+}
+
+.singles-desc p, .inrelationship-desc p, .couples-desc p {
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 1.8rem;
+    text-align: center;
+}
+
+.inrelationship-desc {
+    background-color: black;
+    color: white;
+}
+
+.inrelationship-desc h3 {
+    color: #f50505;
+}
