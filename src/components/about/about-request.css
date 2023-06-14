@@ -30,7 +30,8 @@
     font-size: 16.5px;
 }
 
-.request-text button {
+/* .request-text  */
+button {
     background-color: transparent;
     font-family: 'Libre Baskerville', sans-serif;
     border-radius: 15px;

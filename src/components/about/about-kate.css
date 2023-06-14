@@ -1,0 +1,34 @@
+#aboutkate {
+    color: #fff;
+    background-color: #f30303;
+}
+.about-kate-header {
+    background-color: black;
+    padding: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.about-kate-desc {
+    padding: 14rem 3rem;
+}
+
+.about-kate-desc p {
+    margin-bottom: 2rem;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about-kate-content {
+    display: flex;
+}
+.about-kate-img {
+    width: 100%;
+}
+.about-kate-img img {
+    width: 100%;
+}
