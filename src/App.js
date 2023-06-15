@@ -9,6 +9,7 @@ import Video from './components/video/video';
 import Morefun from './components/testimonials/morefun';
 import AboutKate from './components/about/about-kate';
 import ExtraOrdinary from './components/testimonials/extraordinary';
+import BookNow from './components/about/book-now';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Morefun />
       <AboutKate />
       <ExtraOrdinary />
+      <BookNow />
     </>
   );
 }

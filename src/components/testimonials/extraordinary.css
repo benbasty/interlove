@@ -1,8 +1,44 @@
 #extra-ordinary {
-    background-color: #070707;
+    background-color: #464444;
     color: #fff;
+    padding: 2rem 0;
 }
 
-.extraordinary-section {
-    padding: 1.5rem 0;
+.extra-ordinary-section h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 23px;
+}
+
+.extra-ordinary-objective {
+    display: flex;
+    gap: 0.1rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.extra-ordinary-quote-open, .extra-ordinary-quote-close {
+    width: 3%;
+}
+.extra-ordinary-objective-text {
+    width: 94%;
+    margin-top: 0.8rem;
+    font-size: 16px;
+    font-family: 'Libre Baskerville';
+    text-align: center;
+}
+
+.extra-ordinary-quote-open img, .extra-ordinary-quote-close img{
+    width: 100%;
+}
+
+.extra-ordinary-section h4 {
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+}
+
+.extra-ordinary-quote-close {
+    margin-top: 1rem;
 }

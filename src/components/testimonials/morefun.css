@@ -1,8 +1,46 @@
 #morefun {
-    background-color: #dad5d5;
-    color: black;
+    background-color: #aea9a9;
+    color: #0b0b0b;
+    padding: 1.5rem 0;
 }
 
-.morefun-section {
-    padding: 1.5rem 0;
+.morefun-section h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 23px;
+}
+
+.morefun-objective {
+    display: flex;
+    gap: 0.1rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.morefun-quote-open, .morefun-quote-close {
+    width: 3%;
+}
+
+
+.morefun-objective-text {
+    width: 94%;
+    margin-top: 0.8rem;
+    font-size: 16px;
+    font-family: 'Libre Baskerville';
+    text-align: center;
+}
+
+.morefun-quote-open img, .morefun-quote-close img{
+    width: 100%;
+}
+
+.morefun-section h4 {
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+}
+
+.morefun-quote-close {
+    margin-top: 1rem;
 }

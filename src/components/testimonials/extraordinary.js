@@ -6,17 +6,17 @@ import QuotesClose from '../../assets/images/quotes-close.png';
 
 const ExtraOrdinary = () => {
   return (
-    <section id='amazing extra-ordinary'>
-        <div className='amazing-section extraordinary-section container'>
+    <section id='extra-ordinary'>
+        <div className='extra-ordinary-section container'>
             <h3>I met the most amazing man</h3>
-            <div className='objective'>
-                <div className='quote-open'>
+            <div className='extra-ordinary-objective'>
+                <div className='extra-ordinary-quote-open'>
                     <img src={QuotesOpen} alt='quotesopen'/>
                 </div>
-                <div className='objective-text'>
+                <div className='extra-ordinary-objective-text'>
                     My objective has come to fruition, and I am still in awe of it. This year, I feel like a completely different individual. I am grateful to Kate for her help.
                 </div>
-                <div className='quote-close'>
+                <div className='extra-ordinary-quote-close'>
                     <img src={QuotesClose} alt='quotesclose'/>
                 </div>
             </div>

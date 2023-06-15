@@ -5,17 +5,17 @@ import QuotesClose from '../../assets/images/quotes-close.png';
 
 const morefun = () => {
   return (
-    <section id='amazing morefun'>
-        <div className='amazing-section morefun-section container'>
+    <section id='morefun'>
+        <div className='morefun-section container'>
             <h3>More fun with my partner</h3>
-            <div className='objective'>
-                <div className='quote-open'>
+            <div className='morefun-objective'>
+                <div className='morefun-quote-open'>
                     <img src={QuotesOpen} alt='quotesopen'/>
                 </div>
-                <div className='objective-text'>
+                <div className='morefun-objective-text'>
                     She clearly sees what's behind the patterns in relationships and help provide realistic tools for change. It was the best way to get things in order.
                 </div>
-                <div className='quote-close'>
+                <div className='morefun-quote-close'>
                     <img src={QuotesClose} alt='quotesclose'/>
                 </div>
             </div>

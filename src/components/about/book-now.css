@@ -1,0 +1,28 @@
+#book-now {
+    background-color: black;
+    flex-direction: row;
+}
+
+.book-now-container {
+    display: flex;
+    padding: 5rem 2.5rem;
+}
+
+.booking-request {
+    width: 50%;
+    margin-top: 10rem;
+}
+
+.booking-request h3 {
+    font-family: 'Libre Baskerville', sans-serif;
+    color: #f00505;
+    margin-bottom: 2rem;
+    font-size: 37px;
+}
+.katepic {
+    width: 50%;
+}
+
+.katepic img {
+    width: 100%;
+}
