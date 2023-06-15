@@ -8,6 +8,7 @@ import WhoIworkWith from './components/workWithMe/whoIworkWith';
 import Video from './components/video/video';
 import Morefun from './components/testimonials/morefun';
 import AboutKate from './components/about/about-kate';
+import ExtraOrdinary from './components/testimonials/extraordinary';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Video />
       <Morefun />
       <AboutKate />
+      <ExtraOrdinary />
     </>
   );
 }

@@ -1,7 +1,6 @@
 #aboutkate {
     color: #fff;
     background-color: #f30303;
-    height: fit-content;
 }
 .about-kate-header {
     background-color: black;
@@ -44,37 +43,42 @@
 }
 
 .about-kate-extra-img img {
-    height: 200px;
+    height: 450px;
 }
 
-.KateBrand {
-    width: 25%;
-    display: inline-flex;
-}
-.KateBrand img {
-    width: 100%;
-}
-.KateFace {
-    width: 35%;
-    display: inline-flex;
-}
-
-.KateFace img {
-    width: 100%;
-}
 .KatePoster {
-    width: 15%;
+    width: 35%;
     display: inline-flex;
 }
 
 .KatePoster img {
     width: 100%;
 }
+
+.KateBrand {
+    width: 30%;
+    display: inline-flex;
+}
+.KateBrand img {
+    width: 100%;
+}
+
 .KateModel {
-    width: 25%;
+    width: 20%;
     display: inline-flex;
 }
 
 .KateModel img {
     width: 100%;
 }
+
+
+.KateFace {
+    width: 30%;
+    display: inline-flex;
+}
+
+.KateFace img {
+    width: 100%;
+}
+
