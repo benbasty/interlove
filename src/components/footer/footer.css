@@ -1,0 +1,51 @@
+#footer .menu-section {
+    background-color: #191718;
+}
+
+#footer .menu-section .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#footer .menu-section .menu .menu-items {
+    display: flex;
+    gap: 2rem;
+}
+
+#footer .menu-section .menu a {
+    color: #fff;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 12px;
+}
+
+#footer .menu-section .menu .socials {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#footer .menu-section .menu .socials svg {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#footer .footer-section {
+    background-color: #000000;
+    color: #fdfdfd;
+}
+
+#footer .footer-section .copyright-footer-section {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    justify-content: center;
+}
+
+#footer .footer-section .copyright-footer-section h6 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+}

@@ -11,10 +11,10 @@ const about = () => {
                 <img src={kateintro} alt='kate-intro'/>
             </div>
             <div className='kate-description'>
-                <h4>Hi, I'm <span>Kate</span>.</h4>
-                <h4>Whether you're currently in a relationship or <br />not, your relationship tendencies are rooted <br />in childhood and societal conditioning.</h4>
-                <h4>My mission is to assist you in overcoming<br /> these obstacles and negative thought<br /> patterns, allowing you to welcome profound <br />love into your life and locate your ideal <br />partner.</h4>
-                <h4>I have aided numerous couples and <br />individuals as an accomplished dating coach and <br />unwavering champion of love.</h4>
+                <h4>Hi, I'm Kate.</h4>
+                <h4>Whether you're currently in a relationship or not, your relationship tendencies are rooted in childhood and societal conditioning.</h4>
+                <h4>My mission is to assist you in overcoming these obstacles and negative thought patterns, allowing you to welcome profound love into your life and locate your ideal partner.</h4>
+                <h4>I have aided numerous couples and individuals as an accomplished dating coach and unwavering champion of love.</h4>
                 <button>LEARN MORE ABOUT KATE</button>
                 <div className='final-intro'>
                     <div className='apostrophe'>

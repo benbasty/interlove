@@ -15,11 +15,11 @@
 .request-description {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    margin-left: 14rem;
+    gap: 5.5rem;
+    /* margin-left: 14rem; */
 }
 .request-text {
-    width: 35%;
+    width: 45%;
 }
 /* .request-pic {
     width: 80%;
@@ -27,7 +27,7 @@
 .request-text h4 {
     font-family: 'Libre Baskerville', sans-serif;
     margin-bottom: 2.5rem;
-    font-size: 16.5px;
+    font-size: 18px;
 }
 
 /* .request-text  */

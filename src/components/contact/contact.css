@@ -1,0 +1,76 @@
+#contact {
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/images/couples-talking.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #080808;
+    opacity: 0.8;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.contact-right-session form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left-session, .contact-right-session {
+    margin: 15rem 0;
+    color: #fff;
+    z-index: 10;
+}
+
+.contact-left-session {
+    width: 50%;
+}
+
+.contact-left-session h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.contact-left-session p {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.contact-right-session form textarea {
+    padding: 1.5rem;
+    border-radius: 50px;
+}
+
+.contact-right-session form textarea::placeholder {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 16px;
+}
+
+.contact-right-session form input[type='submit'] {
+    background-color: #3b99f0;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: -1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}

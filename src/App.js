@@ -11,6 +11,8 @@ import AboutKate from './components/about/about-kate';
 import ExtraOrdinary from './components/testimonials/extraordinary';
 import BookNow from './components/about/book-now';
 import Testimonials from './components/testimonials/testimonials';
+import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <ExtraOrdinary />
       <BookNow />
       <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 }

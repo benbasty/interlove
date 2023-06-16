@@ -1,33 +1,34 @@
 #about-mission {
     width: 100%;
-    height: 86vh;
+    height: fit-content;
     background-color: #a80505;
 }
 
 #about-mission .introduction {
     display: flex;
-    gap: 2.6rem;
+    gap: 14rem;
 }
 
 .introduction .kate-pic {
-    margin-left: 10rem;
+    display: inline-flex;
+    width: 70%;
 }
 
 #about-mission .kate-description {
     color: #fff;
     font-family: 'Libre Baskerville', sans-serif;
     margin-top: 9rem;
-    font-size: 16px;
+    font-size: 18px;
 }
 .kate-description h4:first-child {
     text-transform: uppercase;
     line-height: 1.5;
     margin-bottom: 1rem;
 }
-.kate-description h4:first-child span {
+/* .kate-description h4:first-child span {
     color: #030303;
     font-weight: 700;
-}
+} */
 
 .kate-description h4:nth-child(2), .kate-description h4:nth-child(3),.kate-description h4:nth-child(4) {
     margin-bottom: 1rem;
@@ -51,7 +52,7 @@
 }
 
 .final-intro .apostrophe {
-    width: 8%;
+    width: 6%;
 }
 
 .final-intro .apostrophe img {

@@ -28,7 +28,7 @@ const aboutRequest = () => {
                 <img src={couple} alt='couple'/>
             </div>
         </div>
-        <div className='bottom-request container'>
+        <div className='bottom-request'>
             <h4>Confidence, clarity, and connection are the key elements.</h4>
         </div>
     </section>
