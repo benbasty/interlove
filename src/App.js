@@ -10,6 +10,7 @@ import Morefun from './components/testimonials/morefun';
 import AboutKate from './components/about/about-kate';
 import ExtraOrdinary from './components/testimonials/extraordinary';
 import BookNow from './components/about/book-now';
+import Testimonials from './components/testimonials/testimonials';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <AboutKate />
       <ExtraOrdinary />
       <BookNow />
+      <Testimonials />
     </>
   );
 }
