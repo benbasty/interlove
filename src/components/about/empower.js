@@ -1,8 +1,11 @@
 import React from 'react'
 import './empower.css'
-import  ExplainImg from '../../assets/images/explain-image.png';
-import ProfessionalImg from '../../assets/images/professional-image.png';
-import SupportImg from '../../assets/images/support-image.png';
+// import  ExplainImg from '../../assets/images/explain-image.png';
+// import ProfessionalImg from '../../assets/images/professional-image.png';
+// import SupportImg from '../../assets/images/support-image.png';
+import Explain from '../../assets/images/explain.jpg';
+import ProfessionalCoaching from '../../assets/images/coaching.jpg'
+import Support from '../../assets/images/support.jpg'
 
 const empower = () => {
   return (
@@ -13,7 +16,7 @@ const empower = () => {
             <div className='empower-steps'>
                 <div className='explain'>
                     <div className='explain-img'>
-                        <img src={ExplainImg} alt='explain-img'/>
+                        <img src={Explain} alt='explain-img'/>
                     </div>
                     <div className='explain-num'>
                         1
@@ -25,7 +28,7 @@ const empower = () => {
                 </div>
                 <div className='professional-coaching'>
                     <div className='professional-coaching-img'>
-                            <img src={ProfessionalImg} alt='professional-coaching-img'/>
+                            <img src={ProfessionalCoaching} alt='professional-coaching-img'/>
                     </div>
                     <div className='professional-coaching-num'>
                         2
@@ -37,7 +40,7 @@ const empower = () => {
                 </div>
                 <div className='support'>
                     <div className='support-img'>
-                        <img src={SupportImg} alt='support-img'/>
+                        <img src={Support} alt='support-img'/>
                     </div>
                     <div className='support-num'>
                         3

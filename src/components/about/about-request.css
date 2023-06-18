@@ -15,15 +15,19 @@
 .request-description {
     display: flex;
     flex-direction: row;
-    gap: 5.5rem;
+    gap: 5rem;
     /* margin-left: 14rem; */
 }
 .request-text {
-    width: 45%;
+    width: 60%;
 }
 /* .request-pic {
-    width: 80%;
+    width: 55%;
 } */
+
+.request-pic img {
+    width: 100%;
+}
 .request-text h4 {
     font-family: 'Libre Baskerville', sans-serif;
     margin-bottom: 2.5rem;
