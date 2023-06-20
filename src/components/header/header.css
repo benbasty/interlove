@@ -80,3 +80,14 @@
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
 } */
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    /* .hamburger {
+        display: initial;
+        margin-top: 0.5rem;
+    } */
+}
