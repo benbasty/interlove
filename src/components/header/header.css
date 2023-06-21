@@ -172,4 +172,17 @@
         display: initial;
         margin-top: 0.5rem;
     } */
+
+    #header {
+        height: 320px;
+    }
+    #hero-description{
+        margin-top: 2rem;
+    }
+    #hero-description h3 {
+        font-size: 20px;
+    }
+    #hero-description h4 {
+        font-size: 11px;
+    }
 }

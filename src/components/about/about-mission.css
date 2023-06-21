@@ -98,3 +98,40 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #about-mission .introduction {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 0rem;
+    }
+    .introduction .kate-pic {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-mission .kate-description {
+        margin-top: 4rem !important;
+        font-size: 18px !important;
+    }
+    .final-intro .apostrophe {
+        display: none;
+    }
+
+    .kate-description .final-intro {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .final-intro .final-desc {
+        font-size: 18px;
+    }
+    .final-intro .final-desc::before{
+        content: '"';
+    }
+    .final-intro .final-desc::after{
+        content: '"';
+    }
+}

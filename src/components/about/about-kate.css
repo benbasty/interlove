@@ -105,4 +105,7 @@
     .about-kate-desc p {
         font-size: 14px;
     }
+    .about-kate-extra-img img {
+        height: 250px;
+    }
 }

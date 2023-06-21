@@ -39,3 +39,17 @@
 .inrelationship-desc h3 {
     color: #f50505;
 }
+
+@media screen and (max-width: 600px) {
+    .singles, .couples {
+        display: flex;
+        flex-direction: column;
+    }
+    .inrelationship {
+        flex-direction: column-reverse;
+    }
+    .singles img, .inrelationship img, .couples img{
+        width: 100%;
+        display: none;
+    }
+}
