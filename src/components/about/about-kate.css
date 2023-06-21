@@ -109,3 +109,10 @@
         height: 250px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .about-kate-content {
+        display: flex;
+        flex-direction: column;
+    }
+}

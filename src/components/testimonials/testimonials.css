@@ -66,3 +66,23 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .testimonials-texts {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .testimonial img {
+        margin-bottom: 0.5rem;
+    }
+    .testimonial h4 {
+        margin-bottom: 1rem;
+    }
+    .testimonial p {
+        font-size: 18px;
+    }
+}
