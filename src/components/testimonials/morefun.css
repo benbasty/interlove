@@ -44,3 +44,9 @@
 .morefun-quote-close {
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .morefun-objective-text {
+        font-size: 14px;
+    }
+}

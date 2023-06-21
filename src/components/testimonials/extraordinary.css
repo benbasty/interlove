@@ -42,3 +42,9 @@
 .extra-ordinary-quote-close {
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .extra-ordinary-objective-text {
+        font-size: 14px;
+    }
+}

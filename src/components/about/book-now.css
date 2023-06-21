@@ -29,3 +29,9 @@
 .katepic img {
     width: 100%;
 }
+
+@media screen and (max-width: 912px) {
+    .booking-request {
+        margin-top: 4rem;
+    }
+}

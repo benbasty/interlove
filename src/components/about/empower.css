@@ -76,4 +76,21 @@
     /* width: 180px; */
 }
 
+@media screen and (max-width: 1280px) {
 
+    .empower-steps {
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .empower-steps img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .empower-steps {
+        display: flex;
+        flex-direction: column;
+    }
+}
