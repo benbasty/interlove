@@ -49,3 +49,14 @@
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
 }
+
+@media screen and (max-width: 280px) {
+    #footer .menu-section .menu .menu-items {
+        display: flex;
+        gap: 0.4rem;
+        flex-direction: column;
+    }
+    #footer .footer-section .copyright-footer-section h6 {
+        font-size: 8px;
+    }
+}

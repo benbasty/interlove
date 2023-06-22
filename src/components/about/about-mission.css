@@ -83,6 +83,12 @@
     }
 }
 
+@media screen and (max-width: 820px) {
+    .final-intro .final-desc {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .introduction .kate-pic {
         width: 50%;
@@ -133,5 +139,47 @@
     }
     .final-intro .final-desc::after{
         content: '"';
+    }
+}
+
+@media screen and (max-width: 414px){
+    .final-intro .final-desc {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    .final-intro .final-desc {
+        font-size: 16px;
+    }
+    #about-mission .kate-description {
+        font-size: 16px !important;
+    }
+    .introduction .kate-pic {
+        width: 80%;
+    }
+    .introduction .kate-pic img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 393px){
+    .introduction .kate-pic {
+        width: 60%;
+    }
+    .introduction .kate-pic img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 280px){
+    #about-mission .kate-description {
+        font-size: 12px !important;
+    }
+    .kate-description button {
+        font-size: 12px;
+    }
+    .final-intro .final-desc {
+        font-size: 10px;
     }
 }

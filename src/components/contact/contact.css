@@ -85,6 +85,12 @@
     }
 }
 
+@media screen and (max-width: 820px) {
+    .contact-left-session h2 {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .contact-left-session h2 {
         font-size: 15.5px;
@@ -125,5 +131,39 @@
 
     .contact-left-session p {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #footer .menu-section .menu {
+        flex-direction: column !important;
+        gap: 1rem;
+    }
+    #footer .menu-section .menu .socials {
+        margin-left: -0.35rem;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .contact-left-session h2 {
+        font-size: 23px;
+    }
+    #footer .menu-section .menu .menu-items a {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .contact-left-session h2 {
+        font-size: 14px;
+    }
+    .contact-left-session p {
+        font-size: 13px;
+    }
+    .contact-right-session form textarea::placeholder {
+        font-size: 10px;
+    }
+    .contact-right-session form input[type='submit'] {
+        font-size: 10px;
     }
 }

@@ -53,3 +53,15 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .work-header {
+        font-size: 24.5px;
+    }
+    .singles-desc h3, .inrelationship-desc h3, .couples-desc h3 {
+        font-size: 40px;
+    }
+    .singles-desc p, .inrelationship-desc p, .couples-desc p {
+        font-size: 13px;
+    }
+}

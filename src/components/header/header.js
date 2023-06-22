@@ -18,11 +18,11 @@ const Header = () => {
                 <img src={Logo} alt='logoInterlove'/>
             </div>
             <div className={showHamburger ? 'menu responsive-menu' : 'menu'}>
-                <a href='#menu-item'><h3>Home</h3></a>
-                <a href='#menu-item'><h3>About</h3></a>
-                <a href='#menu-item'><h3>Work With Me</h3></a>
-                <a href='#menu-item'><h3>Testimonials</h3></a>
-                <a href='#menu-item'><h3>Contact</h3></a>
+                <a href='#menu-item'><h3 onClick={() => setShowHamburger(false)}>Home</h3></a>
+                <a href='#menu-item'><h3 onClick={() => setShowHamburger(false)}>About</h3></a>
+                <a href='#menu-item'><h3 onClick={() => setShowHamburger(false)}>Work With Me</h3></a>
+                <a href='#menu-item'><h3 onClick={() => setShowHamburger(false)}>Testimonials</h3></a>
+                <a href='#menu-item'><h3 onClick={() => setShowHamburger(false)}>Contact</h3></a>
                 <a href='#menu-item' className='menu-select'>
                     <select id='language'>
                         <option value='EN'>EN</option>
@@ -32,11 +32,10 @@ const Header = () => {
                 </a>
             </div>
             <div className='hamburger' onClick={showNavBar}>
-                {
-                    showHamburger ?
-                    <FaTimes/>
+                {showHamburger ?
+                    (<FaTimes/>)
                     :
-                    <FaBars/>
+                    (<FaBars/>)
                 }
             </div>
         </nav>

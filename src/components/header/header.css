@@ -88,6 +88,9 @@
 .hamburger {
     display: none;
 }
+.hamburger svg {
+    color: #fff;
+}
 
 
 
@@ -143,6 +146,30 @@
     }
 }
 
+@media screen and (max-width: 820px) {
+    #header {
+        height: 440px;
+    }
+    #navbar .menu h3 {
+        font-size: 8px;
+    }
+    #navbar .menu select {
+        font-size: 8px;
+    }
+    #navbar .menu .menu-select {
+        margin-top: -0.6rem;
+    }
+    #hero-description{
+        margin-top: 4.5rem;
+    }
+    #hero-description h3 {
+        font-size: 26px;
+    }
+    #hero-description h4 {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #header {
         height: 400px;
@@ -168,12 +195,35 @@
 }
 
 @media screen and (max-width: 600px){
-    /* .hamburger {
+    .hamburger {
         display: initial;
         margin-top: 0.5rem;
-    } */
+        z-index: 1;
+    }
 
-    #header {
+    #navbar .menu {
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        top: -1.5rem;
+        left: -100%;
+        background-color: #a84444;
+        transition: 0.3s;
+        gap: 2rem;
+    }
+    #navbar .menu.responsive-menu {
+        left: 0;
+    }
+    #navbar .menu h3 {
+        font-size: 26px;
+    }
+    #navbar .menu select {
+        font-size: 26px;
+    }
+     #header {
         height: 320px;
     }
     #hero-description{
@@ -184,5 +234,71 @@
     }
     #hero-description h4 {
         font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    #header {
+        height: 280px;
+    }
+    #hero-description{
+        margin-top: 1.5rem;
+    }
+    #hero-description h3 {
+        font-size: 18px;
+    }
+    #hero-description h4 {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    #header {
+        height: 220px;
+    }
+    #hero-description{
+        margin-top: 0.7rem;
+    }
+    #hero-description h3 {
+        font-size: 16px;
+    }
+    #hero-description h4 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    #header {
+        height: 200px;
+    }
+    #hero-description{
+        margin-top: 0.4rem;
+    }
+    #hero-description h3 {
+        font-size: 12px;
+    }
+    #hero-description h4 {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #header {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #header {
+        height: 150px;
+    }
+    #hero-description{
+        margin-top: 0.1rem;
+    }
+    #hero-description h3 {
+        font-size: 8px;
+    }
+    #hero-description h4 {
+        font-size: 5px;
     }
 }
