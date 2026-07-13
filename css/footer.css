@@ -20,7 +20,7 @@ footer {
   padding: clamp(44px, 7vw, 76px) max(20px, calc((100vw - 1160px) / 2));
   background:
     linear-gradient(135deg, rgba(44, 25, 25, 0.96), rgba(83, 31, 34, 0.92)),
-    url("/images/footerbackground.jpg") center / cover no-repeat;
+    url("../images/footerbackground.jpg") center / cover no-repeat;
 }
 
 .footer-left {
