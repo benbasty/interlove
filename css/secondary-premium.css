@@ -45,7 +45,7 @@ body.premium-page {
 .page-hero {
   background:
     linear-gradient(110deg, rgba(248, 243, 239, 0.98), rgba(255, 253, 251, 0.84)),
-    url("../images/footerbackground.jpg") center / cover no-repeat;
+    url("../images/footerbackground.webp") center / cover no-repeat;
   border-bottom: 1px solid var(--line);
 }
 

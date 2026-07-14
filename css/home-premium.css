@@ -103,7 +103,7 @@ a {
   overflow: hidden;
   background:
     linear-gradient(110deg, rgba(248, 243, 239, 0.98) 0%, rgba(248, 243, 239, 0.92) 48%, rgba(255, 253, 251, 0.72) 100%),
-    url("../images/footerbackground.jpg") center / cover no-repeat;
+    url("../images/footerbackground.webp") center / cover no-repeat;
   border-bottom: 1px solid var(--line);
 }
 
@@ -493,7 +493,7 @@ a {
   color: white;
   background:
     linear-gradient(120deg, rgba(36, 25, 24, 0.88), rgba(104, 28, 32, 0.84)),
-    url("../images/kateandfriends.JPG") center / cover no-repeat;
+    url("../images/kateandfriends.webp") center / cover no-repeat;
   box-shadow: var(--shadow);
 }
 
