@@ -17,6 +17,11 @@ document.querySelectorAll(".page-form").forEach((form) => {
     status.className = "form-status form-status--pending";
     status.textContent = "Sending your message securely...";
 
+    const formSource = form.elements.namedItem("form_source")?.value || "Website inquiry";
+    document.dispatchEvent(new CustomEvent("interlove:form-attempt", {
+      detail: { formSource }
+    }));
+
     try {
       const response = await fetch(form.action, {
         method: form.method,
@@ -31,12 +36,18 @@ document.querySelectorAll(".page-form").forEach((form) => {
       status.className = "form-status form-status--success";
       status.textContent = successMessage;
       status.focus();
+      document.dispatchEvent(new CustomEvent("interlove:form-success", {
+        detail: { formSource }
+      }));
     } catch (error) {
       submitButton.disabled = false;
       submitButton.textContent = defaultLabel;
       status.className = "form-status form-status--error";
       status.textContent = "Your message could not be sent. Please try again or email benbasty@gmail.com.";
       status.focus();
+      document.dispatchEvent(new CustomEvent("interlove:form-error", {
+        detail: { formSource }
+      }));
     } finally {
       form.removeAttribute("aria-busy");
     }
