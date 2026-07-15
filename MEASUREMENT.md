@@ -8,7 +8,13 @@ A conversion is a successful Formspree submission from one of these forms:
 - Custom plan request (`workwithme.html`)
 - General inquiry (`about.html`)
 
-Each submitted inquiry includes its form source, submission page, referring website origin, campaign source/medium/name when supplied through `utm_*` query parameters, UTC submission time, and visitor time zone. Formspree remains the source of truth for conversion counts.
+Each submitted inquiry includes a stable `form_id`, its readable form source, submission page, referring website origin, campaign source/medium/name when supplied through `utm_*` query parameters, UTC submission time, and visitor time zone. Formspree remains the source of truth for conversion counts.
+
+| Form | `form_id` |
+| --- | --- |
+| Discovery session | `booking_request` |
+| Custom plan | `custom_plan` |
+| General inquiry | `general_inquiry` |
 
 The form handler emits `interlove:form-attempt`, `interlove:form-success`, and `interlove:form-error` browser events. A consent-managed analytics service can subscribe to these later without changing form behavior.
 
