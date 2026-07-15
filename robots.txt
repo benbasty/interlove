@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://interlove.co/sitemap.xml
+Sitemap: https://benbasty.github.io/interlove/sitemap.xml
