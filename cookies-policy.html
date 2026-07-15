@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cookie Policy | Interlove</title>
-  <meta name="description" content="Learn how Interlove uses cookies and similar technologies to support website functionality, analytics, and embedded services.">
+  <meta name="description" content="Learn how Interlove uses essential browser storage and optional quiz embeds, and how to change your privacy preferences.">
   <link rel="canonical" href="https://benbasty.github.io/interlove/cookies-policy.html">
   <meta property="og:title" content="Cookie Policy | Interlove">
-  <meta property="og:description" content="Learn how Interlove uses cookies and similar technologies to support website functionality, analytics, and embedded services.">
+  <meta property="og:description" content="Learn how Interlove uses essential browser storage and optional quiz embeds, and how to change your privacy preferences.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://benbasty.github.io/interlove/cookies-policy.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/menuLegal.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/legal-premium.css">
+  <link rel="stylesheet" href="css/consent.css">
 </head>
 <body class="legal-page">
   <header>
@@ -42,17 +43,19 @@
       <div class="legal-shell">
         <p class="eyebrow">Website Information</p>
         <h1>Cookie Policy</h1>
-        <p>This page explains how cookies and similar technologies may be used when you visit Interlove, including tools that keep the site working and help us understand what visitors find useful.</p>
+        <p>This page explains the browser storage and third-party services used by Interlove, including which optional services require your consent.</p>
+        <p><strong>Effective date:</strong> July 15, 2026</p>
       </div>
     </section>
 
     <section class="legal-main">
       <div class="legal-shell legal-layout">
         <aside class="legal-nav" aria-label="Cookie policy sections">
-          <a href="#what">What Cookies Are</a>
-          <a href="#types">Cookies We Use</a>
-          <a href="#third-party">Third Parties</a>
-          <a href="#manage">Managing Cookies</a>
+          <a href="#what">About storage</a>
+          <a href="#essential">Essential storage</a>
+          <a href="#optional">Optional embeds</a>
+          <a href="#third-party">Providers</a>
+          <a href="#manage">Your choices</a>
           <a href="#updates">Updates</a>
           <a href="#contact">Contact</a>
         </aside>
@@ -60,34 +63,37 @@
         <div class="legal-content">
           <section id="what">
             <h2>What Cookies Are</h2>
-            <p>Cookies are small files stored on your device when you visit a website. They can support basic functionality, remember preferences, and help embedded services load correctly.</p>
-            <p>Similar technologies, such as pixels or local storage, may also be used by website platforms and third-party tools.</p>
+            <p>Cookies are small files stored on your device. Similar browser technologies, including local storage, can remember settings or support embedded services. This policy uses “cookies” to describe both cookies and similar storage where appropriate.</p>
           </section>
-
-          <section id="types">
-            <h2>Cookies We May Use</h2>
-            <ul>
-              <li><strong>Essential cookies:</strong> Used for security, navigation, forms, and basic website functionality.</li>
-              <li><strong>Analytics cookies:</strong> Used to understand page visits, traffic sources, and aggregate visitor behavior.</li>
-              <li><strong>Embedded-service cookies:</strong> Used by forms, scheduling tools, video embeds, fonts, or quiz platforms when those features load.</li>
-            </ul>
+          <section id="essential">
+            <h2>Essential storage</h2>
+            <p>Interlove stores a privacy-preference value named <code>interlove-consent-v1</code> in local storage. It records whether you selected essential services only or allowed optional quiz embeds. This is necessary to respect and remember your choice.</p>
+            <p>GitHub Pages and security infrastructure may process short-lived technical data needed to deliver and protect the website. Inquiry forms connect to Formspree only when you choose to submit them.</p>
           </section>
-
+          <section id="optional">
+            <h2>Optional quiz embeds</h2>
+            <p>Tally and Typeform are blocked by default. If you select “Allow quiz embeds,” their scripts and embedded content load and those providers may use cookies, local storage, IP addresses, device information, and quiz responses under their own privacy notices.</p>
+            <p>Interlove does not intentionally deploy advertising or audience-analytics cookies as of the effective date of this policy.</p>
+          </section>
           <section id="third-party">
-            <h2>Third-Party Services</h2>
-            <p>Some cookies may be set by external platforms used on this site, such as form providers, scheduling services, analytics tools, video platforms, or font services. Their cookies are governed by their own privacy and cookie policies.</p>
-            <p>Interlove does not sell personal information collected through cookies.</p>
+            <h2>Third-party providers</h2>
+            <ul>
+              <li><strong>GitHub Pages:</strong> website hosting and security.</li>
+              <li><strong>Formspree:</strong> inquiry processing when a form is submitted.</li>
+              <li><strong>Tally and Typeform:</strong> optional relationship-quiz embeds after consent.</li>
+              <li><strong>Google Fonts:</strong> delivery of website typefaces, which can involve a request from your device to Google.</li>
+            </ul>
+            <p>External links to Instagram and YouTube do not load those services until you choose to follow a link. Each provider controls its own cookies and retention practices.</p>
           </section>
-
           <section id="manage">
-            <h2>Managing Cookies</h2>
-            <p>You can control or delete cookies through your browser settings. Blocking some cookies may affect embedded forms, booking links, videos, or quiz features.</p>
-            <p>Most browsers also allow you to clear cookies for a specific website while keeping cookies for other sites.</p>
+            <h2>Managing your choices</h2>
+            <p>You can change your Interlove preference at any time. Choosing essential only prevents Tally and Typeform from loading on future page views. It cannot remove cookies a provider placed before consent was withdrawn, so you may also need to clear that provider’s cookies through your browser settings.</p>
+            <button class="cookie-settings-button" type="button" data-open-cookie-settings>Change cookie preferences</button>
           </section>
 
           <section id="updates">
             <h2>Updates to This Policy</h2>
-            <p>This Cookie Policy may be updated as the website, services, or third-party tools change. Any updates will be reflected on this page.</p>
+            <p>This Cookie Policy may be updated when website functionality, providers, or legal requirements change. Material revisions will be identified by a new effective date.</p>
           </section>
 
           <section id="contact">
@@ -138,6 +144,7 @@
     </div>
   </footer>
 
+  <script src="js/consent.js"></script>
   <script src="js/menu.js"></script>
 </body>
 </html>

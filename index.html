@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/footer.css" />
   <link rel="stylesheet" href="css/scrollToTop.css" />
   <link rel="stylesheet" href="css/home-premium.css" />
+  <link rel="stylesheet" href="css/consent.css">
 </head>
 <body class="premium-home">
   <header>
@@ -183,6 +184,10 @@
           <a class="btn-secondary dark" href="quiz.html">Open the Quiz Page</a>
         </div>
         <div class="quiz-embed-panel">
+          <div class="embed-consent-notice" data-embed-consent hidden>
+            <p>Allow optional quiz services to load the Relationship Clarity Quiz here.</p>
+            <button type="button" data-allow-embeds>Allow and load quiz</button>
+          </div>
           <iframe data-tally-src="https://tally.so/embed/mVdBgg?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
             loading="lazy"
             width="100%"
@@ -190,7 +195,8 @@
             frameborder="0"
             marginheight="0"
             marginwidth="0"
-            title="Relationship Clarity Quiz">
+            title="Relationship Clarity Quiz"
+            hidden>
           </iframe>
         </div>
       </div>
@@ -319,6 +325,7 @@
   </footer>
   <button id="scrollToTop" title="Back to Top">↑</button>
 
+  <script src="js/consent.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/quiz.js"></script>
   <script src="js/scrollToTop.js"></script>

@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/secondary-premium.css">
+  <link rel="stylesheet" href="css/consent.css">
 </head>
 <body class="premium-page">
   <header>
@@ -69,7 +70,11 @@
           </div>
         </div>
         <div class="quiz-panel typeform-wrap">
-          <div data-tf-live="01JX4ZGHH1NYD55D6DEX9YXT4Z"></div>
+          <div class="embed-consent-notice" data-embed-consent hidden>
+            <p>Allow optional quiz services to load the Relationship Clarity Quiz here.</p>
+            <button type="button" data-allow-embeds>Allow and load quiz</button>
+          </div>
+          <div data-tf-live="01JX4ZGHH1NYD55D6DEX9YXT4Z" hidden></div>
         </div>
       </div>
     </section>
@@ -136,7 +141,8 @@
     </div>
   </footer>
 
+  <script src="js/consent.js"></script>
   <script src="js/menu.js"></script>
-  <script src="https://embed.typeform.com/next/embed.js"></script>
+  <script src="js/quiz.js"></script>
 </body>
 </html>
