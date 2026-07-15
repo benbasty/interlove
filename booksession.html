@@ -102,7 +102,13 @@
           <p class="section-intro">Share enough context to help Kate understand where you are and what kind of support may be useful. You will receive a follow-up with next steps.</p>
         </div>
         <div class="form-panel">
-          <form class="page-form" action="https://formspree.io/f/manjjojl" method="POST">
+          <form class="page-form" action="https://formspree.io/f/manjjojl" method="POST" data-success-message="Thank you. Your request has been sent. Kate will follow up with next steps.">
+            <input type="hidden" name="form_source" value="Discovery session request">
+            <input type="hidden" name="_subject" value="New Interlove discovery session request">
+            <div class="form-honeypot" aria-hidden="true">
+              <label for="booking-website">Leave this field empty</label>
+              <input type="text" id="booking-website" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
             <div class="form-row">
               <div>
                 <label for="name">Your Name</label>
@@ -132,6 +138,7 @@
               </div>
             </div>
             <button type="submit">Request a Discovery Session</button>
+            <p class="form-status" role="status" aria-live="polite" tabindex="-1"></p>
           </form>
         </div>
       </div>
@@ -194,6 +201,6 @@
   </footer>
 
   <script src="js/menu.js"></script>
-  <script src="js/clearForm.js"></script>
+  <script src="js/formHandler.js"></script>
 </body>
 </html>

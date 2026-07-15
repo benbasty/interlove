@@ -132,7 +132,13 @@
           <p class="eyebrow">Custom plan</p>
           <h2>Not sure which option fits?</h2>
           <p class="section-intro">Share what you are navigating and Kate can recommend the most appropriate next step.</p>
-          <form class="page-form" action="https://formspree.io/f/manjjojl" method="POST">
+          <form class="page-form" action="https://formspree.io/f/manjjojl" method="POST" data-success-message="Thank you. Your request has been sent. Kate will follow up with a recommendation.">
+            <input type="hidden" name="form_source" value="Custom plan request">
+            <input type="hidden" name="_subject" value="New Interlove custom plan request">
+            <div class="form-honeypot" aria-hidden="true">
+              <label for="custom-plan-website">Leave this field empty</label>
+              <input type="text" id="custom-plan-website" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
             <div class="form-row">
               <div>
                 <label for="custom-plan-name">Name</label>
@@ -148,6 +154,7 @@
               <textarea id="custom-plan-message" name="message" placeholder="Tell us a little about your goals, timeline, or the kind of support you are considering." required></textarea>
             </div>
             <button type="submit">Request a Custom Plan</button>
+            <p class="form-status" role="status" aria-live="polite" tabindex="-1"></p>
           </form>
         </div>
       </div>
@@ -187,6 +194,6 @@
   </footer>
 
   <script src="js/menu.js"></script>
-  <script src="js/clearForm.js"></script>
+  <script src="js/formHandler.js"></script>
 </body>
 </html>

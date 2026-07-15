@@ -100,7 +100,13 @@
           <p class="section-intro">Use this form for private coaching, workshops, speaking, collaborations, or general questions.</p>
         </div>
         <div class="form-panel">
-          <form class="page-form" action="https://formspree.io/f/manjjojl" method="POST">
+          <form class="page-form" action="https://formspree.io/f/manjjojl" method="POST" data-success-message="Thank you. Your message has been sent. Kate will be in touch.">
+            <input type="hidden" name="form_source" value="General inquiry">
+            <input type="hidden" name="_subject" value="New Interlove general inquiry">
+            <div class="form-honeypot" aria-hidden="true">
+              <label for="about-website">Leave this field empty</label>
+              <input type="text" id="about-website" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
             <div class="form-row">
               <div>
                 <label for="name">Name</label>
@@ -127,6 +133,7 @@
               <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
             </div>
             <button type="submit">Send Message</button>
+            <p class="form-status" role="status" aria-live="polite" tabindex="-1"></p>
           </form>
         </div>
       </div>
@@ -195,6 +202,6 @@
   </footer>
 
   <script src="js/menu.js"></script>
-  <script src="js/clearForm.js"></script>
+  <script src="js/formHandler.js"></script>
 </body>
 </html>

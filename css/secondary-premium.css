@@ -302,6 +302,45 @@ body.premium-page {
   resize: vertical;
 }
 
+.form-honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.page-form button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+  transform: none;
+}
+
+.form-status {
+  min-height: 24px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.form-status:empty {
+  display: none;
+}
+
+.form-status--success {
+  color: #2f6545;
+}
+
+.form-status--error {
+  color: #8a2529;
+}
+
+.form-status:focus {
+  outline: none;
+}
+
 .text-stack {
   display: grid;
   gap: 18px;
